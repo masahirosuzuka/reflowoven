@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:reflowoven-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:reflowoven-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -105,7 +106,7 @@ Wire Wire Line
 	4119 4992 4019 4992
 Connection ~ 4019 4992
 $Comp
-L GND #PWR?
+L GND-RESCUE-reflowoven #PWR?
 U 1 1 554F68F1
 P 4019 5337
 F 0 "#PWR?" H 4019 5337 30  0001 C CNN
@@ -186,7 +187,7 @@ Wire Wire Line
 	7687 5841 7511 5841
 Connection ~ 7511 5841
 $Comp
-L GND #PWR?
+L GND-RESCUE-reflowoven #PWR?
 U 1 1 554F6F9E
 P 7511 6137
 F 0 "#PWR?" H 7511 6137 30  0001 C CNN
@@ -211,22 +212,22 @@ SSR
 Text Label 7115 5740 0    60   ~ 0
 SSR
 $Comp
-L R R?
+L R-RESCUE-reflowoven R?
 U 1 1 554F77EE
 P 7570 1925
 F 0 "R?" V 7650 1925 40  0000 C CNN
-F 1 "4.7K" V 7577 1926 40  0000 C CNN
+F 1 "1.5k" V 7577 1926 40  0000 C CNN
 F 2 "" V 7500 1925 30  0000 C CNN
 F 3 "" H 7570 1925 30  0000 C CNN
 	1    7570 1925
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-reflowoven R?
 U 1 1 554F78A1
 P 7570 2519
 F 0 "R?" V 7650 2519 40  0000 C CNN
-F 1 "2.2K" V 7577 2520 40  0000 C CNN
+F 1 "3.3k" V 7577 2520 40  0000 C CNN
 F 2 "" V 7500 2519 30  0000 C CNN
 F 3 "" H 7570 2519 30  0000 C CNN
 	1    7570 2519
@@ -244,7 +245,7 @@ F 3 "" H 8613 1889 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-reflowoven #PWR?
 U 1 1 554F79C5
 P 8520 2900
 F 0 "#PWR?" H 8520 2900 30  0001 C CNN
@@ -274,22 +275,22 @@ MISO
 Wire Wire Line
 	7570 2175 7570 2269
 $Comp
-L R R?
+L R-RESCUE-reflowoven R?
 U 1 1 554F92CD
 P 7797 3203
 F 0 "R?" V 7877 3203 40  0000 C CNN
-F 1 "4.7K" V 7804 3204 40  0000 C CNN
+F 1 "1.5k" V 7804 3204 40  0000 C CNN
 F 2 "" V 7727 3203 30  0000 C CNN
 F 3 "" H 7797 3203 30  0000 C CNN
 	1    7797 3203
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-reflowoven R?
 U 1 1 554F92D3
 P 7797 3797
 F 0 "R?" V 7877 3797 40  0000 C CNN
-F 1 "2.2K" V 7804 3798 40  0000 C CNN
+F 1 "3.3k" V 7804 3798 40  0000 C CNN
 F 2 "" V 7727 3797 30  0000 C CNN
 F 3 "" H 7797 3797 30  0000 C CNN
 	1    7797 3797
@@ -326,7 +327,7 @@ Wire Wire Line
 Wire Wire Line
 	7570 2769 7570 2882
 $Comp
-L GND #PWR?
+L GND-RESCUE-reflowoven #PWR?
 U 1 1 554F9FE1
 P 7570 2882
 F 0 "#PWR?" H 7570 2882 30  0001 C CNN
@@ -339,7 +340,7 @@ $EndComp
 Wire Wire Line
 	7797 4047 7797 4129
 $Comp
-L GND #PWR?
+L GND-RESCUE-reflowoven #PWR?
 U 1 1 554FA11F
 P 7797 4129
 F 0 "#PWR?" H 7797 4129 30  0001 C CNN
