@@ -1,3 +1,4 @@
+#include "Arduino.h"
 #include <MsTimer2.h>
 #include <PID_v1.h>
 #include <SPI.h>
