@@ -1,0 +1,122 @@
+Cmp-Mod V01 Created by Cvpcb (2015-06-05 BZR 5717)-product   date = 2015/06/17 15:51:33
+
+BeginCmp
+TimeStamp = /5517C2C1;
+Reference = P1;
+ValeurCmp = Power;
+IdModule  = Socket_Arduino_Uno:Socket_Strip_Arduino_1x08;
+EndCmp
+
+BeginCmp
+TimeStamp = /5517C323;
+Reference = P2;
+ValeurCmp = Analog;
+IdModule  = Socket_Arduino_Uno:Socket_Strip_Arduino_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /5517C46C;
+Reference = P3;
+ValeurCmp = Digital;
+IdModule  = Socket_Arduino_Uno:Socket_Strip_Arduino_1x10;
+EndCmp
+
+BeginCmp
+TimeStamp = /5517C366;
+Reference = P4;
+ValeurCmp = Digital;
+IdModule  = Socket_Arduino_Uno:Socket_Strip_Arduino_1x08;
+EndCmp
+
+BeginCmp
+TimeStamp = /551BBC06;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = Socket_Arduino_Uno:Arduino_1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /551BBD10;
+Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = Socket_Arduino_Uno:Arduino_1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /551BBD30;
+Reference = P7;
+ValeurCmp = CONN_1;
+IdModule  = Socket_Arduino_Uno:Arduino_1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /551BBD52;
+Reference = P8;
+ValeurCmp = CONN_1;
+IdModule  = Socket_Arduino_Uno:Arduino_1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /55718D7E;
+Reference = P9;
+ValeurCmp = type K thermocouple;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /557195FD;
+Reference = P10;
+ValeurCmp = SSR;
+IdModule  = Connect:AK300-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5571976E;
+Reference = P11;
+ValeurCmp = SSR;
+IdModule  = Connect:AK300-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /557190D6;
+Reference = R1;
+ValeurCmp = 4.7K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /557191A1;
+Reference = R2;
+ValeurCmp = 2.2K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55718E68;
+Reference = R3;
+ValeurCmp = 4.7K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55719033;
+Reference = R4;
+ValeurCmp = 2.2K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55811A68;
+Reference = R5;
+ValeurCmp = 330;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /558117F5;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = Buttons_Switches_ThroughHole:SW_PUSH_SMALL;
+EndCmp
+
+EndListe

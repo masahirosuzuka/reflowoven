@@ -1,11 +1,6 @@
-update=2015/09/09 17:03:40
+update=2015/06/07 14:54:21
 version=1
 last_client=kicad
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
@@ -27,24 +22,14 @@ BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [general]
 version=1
-[schematic_editor]
+[cvpcb]
 version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
+NetIExt=net
 [eeschema]
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=reflowoven-rescue
+LibName1=reflowoven2-rescue
 LibName2=power
 LibName3=device
 LibName4=transistors
